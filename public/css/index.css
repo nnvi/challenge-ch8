@@ -1,0 +1,195 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    justify-content: space-between;
+    padding: 10px 40px;
+    margin: 0 60px;
+}
+.navbar{
+    margin: 0;
+    background-color: #F1F3FF;
+}
+.atas{
+    background-color: #F1F3FF;
+}
+.nav-item .nav-link{
+    color: black !important;
+}
+.offcanvas-end{
+    width: 600px;
+}
+.img-car{
+    width: 100%;
+}
+.atas .active{
+    background-color: green !important;
+    color: white !important;
+    font-weight: bold;
+}
+.kedua .row{
+    padding: 70px;
+}
+.col.myservice{
+    text-align: center;
+}
+.box{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: justify;
+}
+.ketiga{
+    padding: 70px;
+}
+.keempat{
+    padding: 70px;
+    text-align: center;
+}
+.kelima{
+    text-align: center;
+    padding: 70px;
+}
+.kelima .card{
+    background-color: blue;
+    color: white;
+    border-radius: 10px;
+    padding: 30px 0;
+}
+.keenam{
+    padding: 0 70px;
+}
+footer{
+    background-color: aliceblue;
+    padding:  20px 70px;
+}
+footer ul li {
+    list-style: none;
+}
+footer ul li a{
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+}
+.accordion-item{
+    background-color: white !important;
+}
+footer .row .col .row img{
+    width: 50px;
+}
+
+/* carousel */
+h2 {
+    font-size: 24px;
+    font-weight: bold;
+}
+.bg-aliceblue {
+    background-color: #f1f3ff;
+}
+.bg-button {
+    background-color: #5cb85f!important;
+}
+.bg-primary-darkblue {
+    background-color: #0d28a6;
+}
+.testimonial-img {
+    width: 80px;
+    height: 80px;
+}
+.testimonial-rating {
+    max-height: 16px;
+}
+.testimonial-name {
+    font-weight: bold;
+    font-size: 14px;
+    text-decoration: none;
+    color: black;
+    line-height: 0px;
+}
+.testimonial-media {
+    margin-top: 20px;
+    text-decoration: none;
+    display: inline-block;
+    padding: 8px 16px;
+    background-color: #f1f1f1;
+    color: black;
+    border-radius: 50%;
+}
+.testimonial-media:hover {
+  background-color: #04AA6D;
+  color: white;
+}
+.footer-link {
+    text-decoration: none;
+    color: black;
+    font-weight: normal;
+    font-size: 14px;
+}
+.footer-social {
+    width: 32px;
+    height: 32px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+.alert-red {
+    background-color: #fa2c5a;
+}
+.alert-yellow {
+    background-color: #f9cc00;
+}
+.alert-green {
+    background-color: #73ca5c;
+}
+
+
+@media screen and (max-width: 768px) {
+    footer{
+        font-size: 14px;
+    }
+    .carousel-item .col-xl-10 p,.carousel-item .col-xl-10 .carousel-img{
+        text-align: center;
+    }
+    footer ul{
+        margin: 0;
+    }
+    .offcanvas-end{
+        width : 50%;
+    }
+    #whyUS h1, #whyUS .why{
+        text-align: center;
+    }
+    .myservice img{
+        width : 100%;
+    }
+    h1{
+        font-size :1.7rem;
+    }
+    p{
+        font-size :0.9rem;
+    }
+    .accordion-button {
+        font-size: .9rem;
+    }
+    .accordion-body{
+        font-size: 0.8rem;
+    }
+}
+@media screen and (max-width: 576px) {
+    .testimonial-name{
+        font-size: 0.9rem;
+    }
+    #carouselExampleControls{
+        max-width: 100% !important;
+    }
+    .accordion-button {
+        font-size: .8rem;
+    }
+    .accordion-body{
+        font-size: 0.7rem;
+    }
+}
+/* Filter cari mobil */
+.cars-container{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+}
